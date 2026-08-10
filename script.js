@@ -26,12 +26,24 @@ var unlucky = [
   "😫",
   "😩"
 ];
+var danger = [
+    "⚠️",
+    "🚨",
+    "☠️",
+    "💀",
+    "🔥",
+    "⛔",
+    "🚫",
+    "❌",
+    "‼️",
+    "🔴"
+];
     var input=document.querySelector("input").value
     console.log(input)
     var random=Math.floor(Math.random()*10)+1;
     console.log(random)
     if(input===""){
-        alert("Please Enter A Valid Number")
+        var result=document.querySelector(".result").textContent=`Enter Value ${danger[emoji]}` 
     }
    else if(+(input)===random){
     var result=document.querySelector(".result").textContent=`You Win's ${picture[emoji]}`

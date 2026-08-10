@@ -25,10 +25,13 @@ body{
     margin-bottom: 10px;
 }
 .btn button {
-    margin-top:8px;
+  
     padding:8px;
     width: 120%;
-    border:none
+    border:none;
+    background-color: rgb(131, 241, 131);
+    border-radius: 20px;
+    margin-top:15px
 }
 .btn button:hover{
     background-color: aquamarine;

@@ -1,0 +1,38 @@
+.continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:250px auto;
+    background-color: aliceblue;
+    width:25%;
+    height: 180px;
+    flex-direction: column;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px black;
+    padding:20px
+}
+body{
+    max-height: 1000vh;
+    background-color: darkolivegreen;
+}
+.input input{
+    width:120px;
+    height: 50px;
+    outline:none;
+    border: none;
+}
+.para{
+    margin-bottom: 10px;
+}
+.btn button {
+    margin-top:8px;
+    padding:8px;
+    width: 120%;
+    border:none
+}
+.btn button:hover{
+    background-color: aquamarine;
+   color:white;
+}
+
+
